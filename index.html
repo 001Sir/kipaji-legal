@@ -1,0 +1,395 @@
+<title>Kipaji Privacy Policy</title>
+<style>
+:root {
+  --ink: #0B1210;
+  --paper: #F6F4EE;
+  --panel: #FFFFFF;
+  --panel-border: #DFE2DA;
+  --muted: #5B6560;
+  --accent: #0E93A8;
+  --accent-ink: #063B43;
+  --stripe-dark: #0a0a0a;
+  --stripe-red: #C4453F;
+  --stripe-white: #E8E8E8;
+  --stripe-green: #046A3E;
+  --serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+  --sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --display: "Space Grotesk", var(--sans);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ink: #EDEFE9;
+    --paper: #101613;
+    --panel: #161D19;
+    --panel-border: #263029;
+    --muted: #94A099;
+    --accent: #3FD6E8;
+    --accent-ink: #C9F6FB;
+  }
+}
+:root[data-theme="dark"] {
+  --ink: #EDEFE9;
+  --paper: #101613;
+  --panel: #161D19;
+  --panel-border: #263029;
+  --muted: #94A099;
+  --accent: #3FD6E8;
+  --accent-ink: #C9F6FB;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  margin: 0;
+  line-height: 1.6;
+}
+a { color: var(--accent-ink); text-decoration-thickness: 1.5px; text-underline-offset: 2px; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.stripe { display: flex; height: 6px; }
+.stripe span { flex: 1; }
+.stripe .s1 { background: var(--stripe-dark); }
+.stripe .s2 { background: var(--stripe-red); }
+.stripe .s3 { background: var(--stripe-white); }
+.stripe .s4 { background: var(--stripe-green); }
+
+header.mast {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 56px 24px 32px;
+}
+.wordmark {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+.wordmark .mark {
+  width: 40px; height: 40px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-ink) 100%);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--display);
+  font-weight: 700;
+  color: var(--paper);
+  font-size: 20px;
+  flex-shrink: 0;
+}
+.wordmark .name {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 19px;
+  letter-spacing: -0.01em;
+}
+h1 {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: clamp(2rem, 4.5vw, 2.75rem);
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  margin: 0 0 14px;
+  text-wrap: balance;
+}
+.meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.meta .sep { opacity: 0.5; }
+
+.lede {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 24px 8px;
+  font-size: 1.05rem;
+  color: var(--muted);
+  max-width: 680px;
+}
+
+nav.toc {
+  max-width: 760px;
+  margin: 28px auto 8px;
+  padding: 20px 24px;
+}
+nav.toc .box {
+  border: 1px solid var(--panel-border);
+  background: var(--panel);
+  border-radius: 14px;
+  padding: 20px 24px;
+}
+nav.toc h2 {
+  font-family: var(--display);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin: 0 0 12px;
+  font-weight: 600;
+}
+nav.toc ol {
+  margin: 0; padding: 0; list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px 20px;
+}
+nav.toc li a {
+  display: flex;
+  gap: 10px;
+  font-size: 0.92rem;
+  color: var(--ink);
+  text-decoration: none;
+  padding: 4px 0;
+}
+nav.toc li a:hover { color: var(--accent-ink); }
+nav.toc li .n {
+  font-family: var(--display);
+  color: var(--accent-ink);
+  font-variant-numeric: tabular-nums;
+  min-width: 1.4em;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 8px 24px 40px;
+}
+section {
+  padding: 36px 0;
+  border-top: 1px solid var(--panel-border);
+}
+section:first-of-type { border-top: none; padding-top: 24px; }
+section h2 {
+  font-family: var(--display);
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0 0 6px;
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+section h2 .n {
+  color: var(--accent-ink);
+  font-variant-numeric: tabular-nums;
+  font-size: 1.05rem;
+}
+section h3 {
+  font-family: var(--display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 22px 0 8px;
+}
+section p { margin: 0 0 14px; max-width: 66ch; }
+section ul, section ol.plain { margin: 0 0 14px; padding-left: 1.3em; max-width: 64ch; }
+section li { margin-bottom: 6px; }
+.max-width-none { max-width: none; }
+
+table.data {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0 18px;
+  font-size: 0.92rem;
+}
+table.data th, table.data td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--panel-border);
+  vertical-align: top;
+}
+table.data th {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+.overflow-wrap { overflow-x: auto; }
+
+.callout {
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-left: 3px solid var(--accent);
+  border-radius: 10px;
+  padding: 16px 18px;
+  margin: 6px 0 18px;
+  font-size: 0.94rem;
+}
+.callout strong { font-family: var(--display); font-weight: 600; }
+
+.draft-banner {
+  max-width: 760px;
+  margin: 0 auto 8px;
+  padding: 0 24px;
+}
+.draft-banner .box {
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: 14px;
+  padding: 18px 22px;
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+.draft-banner strong { color: var(--ink); font-family: var(--display); font-weight: 600; }
+
+footer {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 32px 24px 64px;
+  color: var(--muted);
+  font-size: 0.88rem;
+  border-top: 1px solid var(--panel-border);
+}
+
+@media (max-width: 560px) {
+  nav.toc ol { grid-template-columns: 1fr; }
+}
+</style>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+<div class="stripe"><span class="s1"></span><span class="s2"></span><span class="s3"></span><span class="s4"></span></div>
+
+<header class="mast">
+  <div class="wordmark">
+    <div class="mark">K</div>
+    <div class="name">Kipaji</div>
+  </div>
+  <h1>Privacy Policy</h1>
+  <div class="meta">
+    <span>Effective September 10, 2026</span>
+    <span class="sep">&middot;</span>
+    <span>Applies to the Kipaji mobile app (Android &amp; iOS)</span>
+  </div>
+</header>
+
+<div class="draft-banner">
+  <div class="box">
+    <strong>Draft for legal review.</strong> This policy was drafted directly from Kipaji's actual data-handling code and database schema, not a template — but it has not been reviewed by counsel. Confirm the retention period in §6, the contact details in §10, and the organization's name and jurisdiction before publishing this as the app's live, binding policy.
+  </div>
+</div>
+
+<p class="lede">
+  Kipaji is a mobile tool grassroots cricket coaches in Kenya use to log coaching sessions and submit them for compliance review. This page explains, plainly, what the app collects, why, and who can see it.
+</p>
+
+<nav class="toc">
+  <div class="box">
+    <h2>On this page</h2>
+    <ol>
+      <li><a href="#collect"><span class="n">01</span> Information we collect</a></li>
+      <li><a href="#use"><span class="n">02</span> How we use it</a></li>
+      <li><a href="#share"><span class="n">03</span> Who can see it</a></li>
+      <li><a href="#children"><span class="n">04</span> Youth participants</a></li>
+      <li><a href="#offline"><span class="n">05</span> Offline storage on your device</a></li>
+      <li><a href="#retention"><span class="n">06</span> How long we keep it</a></li>
+      <li><a href="#security"><span class="n">07</span> Security</a></li>
+      <li><a href="#rights"><span class="n">08</span> Your choices</a></li>
+      <li><a href="#thirdparty"><span class="n">09</span> Service providers</a></li>
+      <li><a href="#contact"><span class="n">10</span> Contact &amp; changes</a></li>
+    </ol>
+  </div>
+</nav>
+
+<main>
+
+<section id="collect">
+  <h2><span class="n">01</span> Information we collect</h2>
+  <p>We collect only what the app needs to log a coaching session and route it to your organization for review.</p>
+
+  <h3>Your account</h3>
+  <ul>
+    <li>Email address and password, used to sign you in</li>
+    <li>Your name and coaching role, shown to reviewers alongside your submissions</li>
+    <li>The organization (club, school, or federation body) your account belongs to</li>
+  </ul>
+
+  <h3>Session reports you submit</h3>
+  <p>Each compliance session you log includes:</p>
+  <div class="overflow-wrap">
+  <table class="data">
+    <tr><th>Field</th><th>What it captures</th></tr>
+    <tr><td>Session details</td><td>Title, date range, frequency, how many sessions, the type of activity delivered</td></tr>
+    <tr><td>Delivery &amp; venue</td><td>Who delivered the session (you, a teacher, another coach), the receiving organization, venue type, and an optional address or map link</td></tr>
+    <tr><td>Participant counts</td><td>Total attendance, broken down by gender and, optionally, age bracket — <strong>counts only, never names</strong></td></tr>
+    <tr><td>Match/score details</td><td>Team names and scores, if the session included a scored match</td></tr>
+    <tr><td>Notes</td><td>Free-text notes you choose to add</td></tr>
+    <tr><td>Evidence</td><td>Photos, videos, documents, or score sheets you attach as proof the session happened, plus an optional caption</td></tr>
+  </table>
+  </div>
+
+  <h3>What we don't collect</h3>
+  <p>We don't collect location tracking, contacts, browsing history outside the app, or advertising identifiers. We don't sell your data to anyone, for any reason.</p>
+</section>
+
+<section id="use">
+  <h2><span class="n">02</span> How we use it</h2>
+  <p>Session data exists for one purpose: giving your organization an accurate, auditable record that grassroots coaching sessions took place, so they can meet their own compliance and funding-reporting obligations. Your account details let you sign in, and let reviewers know whose submission they're looking at.</p>
+</section>
+
+<section id="share">
+  <h2><span class="n">03</span> Who can see it</h2>
+  <p>Your submissions are visible to staff within your own organization who hold a reviewer or administrator role — never to coaches or staff at a different organization, and never to the public. This is enforced at the database level, not just in the app's interface.</p>
+  <div class="callout">
+    <strong>We do not sell or rent your data</strong> to advertisers, data brokers, or any other third party.
+  </div>
+</section>
+
+<section id="children">
+  <h2><span class="n">04</span> Youth participants</h2>
+  <p>Many Kipaji sessions involve young players. The app is built to avoid ever needing their personal information: participant fields capture <strong>aggregate counts by age bracket</strong> (under-8 through under-17, plus open age), not names, photos of individual children, or any other identifying detail about a minor. Evidence photos are of the session itself, at a coach's discretion, and are not required to include any participant's face. The same applies to the optional caption a coach can add to a piece of evidence — it's free text, so please don't include a child's name or other identifying detail in it.</p>
+  <p>Kipaji is a tool for adult coaches and administrators. It is not directed at children, and children do not hold accounts or use the app themselves.</p>
+</section>
+
+<section id="offline">
+  <h2><span class="n">05</span> Offline storage on your device</h2>
+  <p>Kenyan grassroots venues don't always have reliable connectivity, so Kipaji is offline-first: everything you enter is saved to a local database on your phone immediately, and synced to our servers automatically once you're back online. Until it syncs, a draft exists only on your device. Your sign-in credentials are stored in your device's secure keystore (Android Keystore / iOS Keychain); other locally-saved data is protected by your device's own screen lock and storage protections, the same as any other app's local data.</p>
+</section>
+
+<section id="retention">
+  <h2><span class="n">06</span> How long we keep it</h2>
+  <p>Submitted session reports are retained for as long as your organization's compliance-reporting requirements call for, and for as long as your account remains active. If you'd like a submission or your account removed sooner, contact your organization's administrator or us directly (§10).</p>
+  <p class="callout"><strong>Placeholder:</strong> the organization should confirm and insert its actual retention period here (e.g. a fixed number of years after the reporting period ends) before this policy goes live.</p>
+</section>
+
+<section id="security">
+  <h2><span class="n">07</span> Security</h2>
+  <p>Data in transit between the app and our servers is encrypted (TLS). Access to your organization's data is restricted by row-level database policies keyed to your account and organization — a reviewer at one organization cannot query another's records, even directly against the database. Passwords are never stored in plain text.</p>
+</section>
+
+<section id="rights">
+  <h2><span class="n">08</span> Your choices</h2>
+  <ul>
+    <li><strong>Access &amp; correction</strong> — ask us or your organization's administrator for a copy of your submitted data, or to correct it.</li>
+    <li><strong>Deletion</strong> — ask us to delete your account and associated submissions, subject to your organization's own compliance-record obligations.</li>
+    <li><strong>Camera &amp; file access</strong> — the app requests camera and file permissions only when you choose to attach evidence, and explains why before the system prompt appears. You can decline and still submit a report without evidence.</li>
+  </ul>
+</section>
+
+<section id="thirdparty">
+  <h2><span class="n">09</span> Service providers</h2>
+  <p>We use a small number of infrastructure providers to run Kipaji. None of them are permitted to use your data for their own purposes.</p>
+  <div class="overflow-wrap">
+  <table class="data">
+    <tr><th>Provider</th><th>What it handles</th></tr>
+    <tr><td>Supabase</td><td>Database, authentication, and file storage for your account and submissions</td></tr>
+    <tr><td>Expo (Expo Application Services)</td><td>Delivers and updates the app itself</td></tr>
+  </table>
+  </div>
+</section>
+
+<section id="contact">
+  <h2><span class="n">10</span> Contact &amp; changes</h2>
+  <p>Questions about this policy, or a request under §8, can be sent to <a href="mailto:privacy@kipaji.app">privacy@kipaji.app</a> <em>(placeholder — replace with a real, monitored address before publishing)</em>.</p>
+  <p>If we make a material change to this policy, we'll update the effective date above and notify active coaches in-app.</p>
+</section>
+
+</main>
+
+<footer>
+  Kipaji &middot; Grassroots cricket compliance logging &middot; This document was drafted from the app's actual code and data model, not a generic template — see the review note at the top of the page.
+</footer>
